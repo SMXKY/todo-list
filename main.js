@@ -210,7 +210,7 @@ function renderingTask(id){
     }
 
    
-        document.querySelectorAll('.js-list-date').forEach((date, index) => {
+    document.querySelectorAll('.js-list-date').forEach((date, index) => {
         date.value = allDates[index]
     }) ;
     
@@ -273,4 +273,8 @@ function deleteList(index){
     for(i = 0; i < allTodoList.length ; i++){
         renderingTask(i) ;
     }
+
+    document.querySelectorAll('.js-list-date').forEach((date, index) => {
+        date.value = allDates[index]
+    }) ;
 }
