@@ -274,7 +274,7 @@ body{
     .add-task{
         width: 100% ;
         display: grid ;
-        grid-template-columns: 1fr  40px 28px ;
+        grid-template-columns: 1fr  30px 28px ;
         column-gap: 4% ;
         align-items: center ;
         justify-content: center ;
