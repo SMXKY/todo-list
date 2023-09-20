@@ -210,7 +210,9 @@ function renderingTask(id){
     }
 
    
-
+        document.querySelectorAll('.js-list-date').forEach((date, index) => {
+        date.value = allDates[index]
+    }) ;
     
 }
 
