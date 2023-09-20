@@ -288,5 +288,6 @@ body{
         cursor: pointer ;
         background: none ;
         border: solid 1px ;
+        width: 30px ;
     }
 }
