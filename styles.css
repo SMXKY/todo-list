@@ -280,4 +280,14 @@ body{
         justify-content: center ;
         padding: 2px 6% ;
     }
+
+    .time-box{
+        padding: 3px ;
+        color-scheme: dark ;
+        color: white ;
+        cursor: pointer ;
+        background: none ;
+        border: solid 1px ;
+        width: 10% ;
+    }
 }
